@@ -1,4 +1,3 @@
-import md5 from "md5"
 <!-- Footer -->
 <footer>
     <div class="container">
@@ -47,7 +46,7 @@ import md5 from "md5"
         repo: `piscesmumu.github.io`,
         owner: 'piscesmumu',
         admin: ['LoKiLyn'],
-        id: md5(window.location.pathname),
+        id: window.location.pathname,
         distractionFreeMode: false
     });
     gitalk.render('gitalk-container');
