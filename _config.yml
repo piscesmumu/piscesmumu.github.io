@@ -59,7 +59,9 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: piscesmumu
+#disqus_username: piscesmumu
+
+
 
 # Netease settings
 netease_comment: false

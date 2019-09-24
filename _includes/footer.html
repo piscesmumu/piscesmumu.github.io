@@ -35,6 +35,23 @@
 <script src="{{ "/js/sw-registration.js " | prepend: site.baseurl }}"></script>
 {% endif %}
 
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+
+    // gitalk的主要参数
+        clientID: `dc0fedb9e73d606f7c97`,
+        clientSecret: '6c77b642bd8cabd104fb9f9bc427112378aeb1b0',
+        repo: `piscesmumu`,
+        owner: 'piscesmumu',
+        admin: ['LoKiLyn'],
+        id: window.location.pathname,
+        distractionFreeMode: false
+    });
+    gitalk.render('gitalk-container');
+</script>
+
 <!-- async load function -->
 <script>
     function async(u, c) {
