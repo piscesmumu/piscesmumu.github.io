@@ -3,6 +3,9 @@ layout: post
 title:  "UITableViewCell的重用"
 date:   2016-01-09 10:43:19 +0800
 categories: iOS
+tags:
+- iOS
+- UIKit
 ---
 ***一句话概括***:  UITableView通过重用池（reusableCells），复用相同标识符的cell来达到节约内存的作用，这就是Cell的重用机制
 
